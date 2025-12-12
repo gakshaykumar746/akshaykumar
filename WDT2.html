@@ -1,0 +1,157 @@
+<html>
+<head>
+<title>MAIN FORM</title>
+<style>
+body {
+	background-color:skyblue;
+	background-size:cover;
+	padding:100px;
+	background-repeat:no-repeat;
+	text-align:center;
+	background-position:center;
+}
+a {
+	background-color:#007bff;
+	font-size:25px;
+	position:absolute;
+	top:20px;
+	left:20px;
+	color:white;
+	
+}
+h1 {
+	position:absolute;
+	top:20px;
+	left:35%;
+	font-size:35px;
+	background-color:white;
+	
+}
+header {
+
+        background-color:blue;
+	background-size:cover;
+	padding:500px;
+	background-repeat:no-repeat;
+	text-align:center;
+	background-position:center;
+}
+*
+{
+	font-size:25px;
+}
+table {
+	border:2px solid black;
+	background-image: url("bg.jpg");
+	background-size:cover;
+	padding:100px;
+	background-repeat:repeat;
+	background-position:center;
+}
+
+}
+td {
+	padding:10px;
+}
+th {
+	position:absolute;
+	top:135px;
+	left:35%;
+	font-size:35px;
+}
+.point {
+	background-color:skyblue;
+	position:absolute;
+	top:620px;
+	left:35%;
+	font-size:35px;
+}
+
+
+
+
+
+</style>
+<body>
+<h1 >Appointment Form</h1>
+<form>
+<center>
+<table >
+<tr><th bgcolor="skyblue">1. Pateint's information </th></tr> 
+<tr>    <td>Enter your name:</td>
+	<td><input type ="text" placeholder="Name"></td>
+</tr>
+<tr>    <td>Date of birth: </td>
+	<td><input type ="date" placeholder="date of birth"></td>
+</tr> 
+<tr>    <td>Phone no:</td>
+	<td><input type ="number" placeholder="phone no"></td>
+</tr>
+<tr>    <td>Email id:</td>
+	<td><input type ="email" placeholder="Email"></td>
+</tr>
+<tr>    <td>Address:</td>
+	<td><textarea name ="address" placeholder="address"></textarea></td>
+</tr>
+<tr>    <td>Contact via:</td>
+	<td><input type ="radio" name="cont">Phone no<br>
+        <input type ="radio" name="cont">Email</td>
+
+</tr>
+<tr>    <td>Gender:</td>
+	<td><input type ="radio" name="con">Male<br>
+        <input type ="radio" name="con">Female</td>
+
+</tr>
+<tr>    <td>Sympotoms:</td>
+	<td><input type ="text" placeholder=""></td>
+</tr>
+
+
+
+
+
+
+</table>
+</center>
+</form>
+<a href="WDT.html">back ←</a>
+
+<form>
+<center>
+<table><tr><th> <div class="point">2.Hospital`information</div></th> </tr>
+<tr><td>Select doctor:</td>
+<td><input type="radio" class="select">Dr.Ranjan shetty<br>
+<input type="radio" class="select">Dr.Promod krishnan<br>
+<input type="radio" class="select">Dr.Kamini kurpad<br>
+<input type="radio" class="select">Dr.Mukta Sachdev<br>
+<input type="radio" class="select">Dr.Amit Rauthan<br>
+<input type="radio" class="select">Dr.Anoop K R<br>
+</td></tr>
+
+<tr><td>Select bed type:</td>
+<td><input type="radio" class="select1">General Ward Beds<br>
+<input type="radio" class="select1">Specialty Beds<br></td></tr>
+
+<tr><td>Select the location:  </td>
+<td><select>
+<option value="Old Airport Road">Old Airport Road</option>
+<option value="Yeswanthpur">Yeswanthpur</option>
+<option value="Whitefield">Whitefield</option>
+<option value="Malleshwaram">Malleshwaram</option>
+<option value="Jayanagar">Jayanagar</option>
+</select></td></tr>
+
+<tr>    <td>Other requirments:</td>
+	<td><input type ="text" placeholder=""></td>
+</tr>
+
+</table>
+<br>
+<input type="submit">
+<input type="reset">
+</center>
+
+</form>
+</body>
+</html>
